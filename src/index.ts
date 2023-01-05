@@ -43,7 +43,7 @@ const cronJob = new cron.CronJob(
           .setColor("#E75EFF")
           //set description with user mention
           .setDescription(
-            `Hey ${member}! You've been on the server for 1 year!`
+            `Hey ${member}! You've been on the server for 1 year! Drinks on me!`
           )
           .setTimestamp();
         //Send message to general channel
@@ -53,10 +53,10 @@ const cronJob = new cron.CronJob(
       } else if (member.joinedTimestamp + 47304000000 < Date.now()) {
         //Create message for 1.5 years
         const oneAndHalfYears = new EmbedBuilder()
-          .setTitle("Happy anniversary !!")
+          .setTitle("Happy half anniversary!!")
           .setColor("#E75EFF")
           .setDescription(
-            `Hey ${member}! You've been on the server for 1.5 years!`
+            `Hey ${member}! You've been on the server for 1.5 years! We're getting old!`
           )
           .setTimestamp();
         //Send message to general channel
@@ -69,7 +69,7 @@ const cronJob = new cron.CronJob(
           .setTitle("Happy anniversary !!")
           .setColor("#E75EFF")
           .setDescription(
-            `Hey ${member}! You've been on the server for 2 years!`
+            `Hey ${member}! You've been on the server for 2 years! Here's a cake!`
           )
           .setTimestamp();
         //Send message to general channel
