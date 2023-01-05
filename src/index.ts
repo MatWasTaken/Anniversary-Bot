@@ -10,7 +10,7 @@ const { EmbedBuilder } = require("discord.js");
 client.on("ready", () => {
   console.log("Ready!");
   // send message on startup
-  client.channels.cache.get(process.env.TEST_CHANNEL_ID).send("Hi gays!");
+  client.channels.cache.get(process.env.GENERAL_CHANNEL_ID).send("Hi gays!");
 
   const guild = client.guilds.cache.get(process.env.GUILD_ID);
   let commands;
