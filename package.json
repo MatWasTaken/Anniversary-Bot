@@ -1,0 +1,29 @@
+{
+  "name": "discordbot_anniversary",
+  "version": "1.0.0",
+  "description": "Wish a happy anniversary to the members of a Discord server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatWasTaken/DiscordBot_Anniversary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatWasTaken/DiscordBot_Anniversary/issues"
+  },
+  "homepage": "https://github.com/MatWasTaken/DiscordBot_Anniversary#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "cron": "^2.1.0",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1"
+  }
+}
